@@ -1,0 +1,71 @@
+\hypertarget{classsorts}{}\doxysection{Шаблон класса sorts\texorpdfstring{$<$}{<} T \texorpdfstring{$>$}{>}}
+\label{classsorts}\index{sorts$<$ T $>$@{sorts$<$ T $>$}}
+
+
+Класс, содержащий реализуемые сортировки  
+
+
+\doxysubsection*{Открытые статические члены}
+\begin{DoxyCompactItemize}
+\item 
+static void \mbox{\hyperlink{classsorts_a85e92a1a1faed0502098098ee0d8fda9}{selection\+Sort}} (T $\ast$data, int n)
+\item 
+static void \mbox{\hyperlink{classsorts_a93a499dbdb350957dfd69d497deb02e8}{merge\+Sort}} (T $\ast$data, int n)
+\item 
+static void \mbox{\hyperlink{classsorts_aef21ec97b945d5bab9aa237bd334dd1d}{heap\+Sort}} (T $\ast$data, int n)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Подробное описание}
+\subsubsection*{template$<$typename T$>$\newline
+class sorts$<$ T $>$}
+Класс, содержащий реализуемые сортировки 
+
+\doxysubsection{Методы}
+\mbox{\Hypertarget{classsorts_aef21ec97b945d5bab9aa237bd334dd1d}\label{classsorts_aef21ec97b945d5bab9aa237bd334dd1d}} 
+\index{sorts$<$ T $>$@{sorts$<$ T $>$}!heapSort@{heapSort}}
+\index{heapSort@{heapSort}!sorts$<$ T $>$@{sorts$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{heapSort()}{heapSort()}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+static void \mbox{\hyperlink{classsorts}{sorts}}$<$ T $>$\+::heap\+Sort (\begin{DoxyParamCaption}\item[{T $\ast$}]{data,  }\item[{int}]{n }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
+
+Интерфейс для сортировки кучей 
+\begin{DoxyParams}[1]{Аргументы}
+\mbox{\texttt{ in}}  & {\em data} & Сортируемый массив \\
+\hline
+\mbox{\texttt{ in}}  & {\em n} & Число элементов в массиве \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classsorts_a93a499dbdb350957dfd69d497deb02e8}\label{classsorts_a93a499dbdb350957dfd69d497deb02e8}} 
+\index{sorts$<$ T $>$@{sorts$<$ T $>$}!mergeSort@{mergeSort}}
+\index{mergeSort@{mergeSort}!sorts$<$ T $>$@{sorts$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{mergeSort()}{mergeSort()}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+static void \mbox{\hyperlink{classsorts}{sorts}}$<$ T $>$\+::merge\+Sort (\begin{DoxyParamCaption}\item[{T $\ast$}]{data,  }\item[{int}]{n }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
+
+Интерфейс для сортировки слиянием 
+\begin{DoxyParams}[1]{Аргументы}
+\mbox{\texttt{ in}}  & {\em data} & Сортируемый массив \\
+\hline
+\mbox{\texttt{ in}}  & {\em n} & Число элементов в массиве \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classsorts_a85e92a1a1faed0502098098ee0d8fda9}\label{classsorts_a85e92a1a1faed0502098098ee0d8fda9}} 
+\index{sorts$<$ T $>$@{sorts$<$ T $>$}!selectionSort@{selectionSort}}
+\index{selectionSort@{selectionSort}!sorts$<$ T $>$@{sorts$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{selectionSort()}{selectionSort()}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+static void \mbox{\hyperlink{classsorts}{sorts}}$<$ T $>$\+::selection\+Sort (\begin{DoxyParamCaption}\item[{T $\ast$}]{data,  }\item[{int}]{n }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
+
+Сортировка выбором 
+\begin{DoxyParams}[1]{Аргументы}
+\mbox{\texttt{ in}}  & {\em data} & Сортируемый массив \\
+\hline
+\mbox{\texttt{ in}}  & {\em n} & Число элементов в массиве \\
+\hline
+\end{DoxyParams}
+
+
+Объявления и описания членов класса находятся в файле\+:\begin{DoxyCompactItemize}
+\item 
+D\+:/\+Lab1\+V16/\+Lab1\+V16/\mbox{\hyperlink{_lab1_v16_8cpp}{Lab1\+V16.\+cpp}}\end{DoxyCompactItemize}
